@@ -103,25 +103,29 @@ header nav a{
 	display: inline-block;
 	width: 145px;
 	height: 25px; 
+	background-image: url("../img/logo.png");
+	background-size:145px 25px; 
 }
 
 .header-double{
 	vertical-align: top;
-	display:inline-block;
+	display: inline-block;
 	width: 330px;
 	height: 330px;
 	margin: 9px;
 	font-size: 14px;
 }
 
-.header-double img{
+.header-double section{
 	width: 300px;
 	height: 300px;	
+	background-image: url("../img/header-img.png");
+	background-size:300px 300px;
 }
 
 .header-double button{
 	display: block;
-	margin:auto;
+	margin: auto;
 	margin-top:15px;
 	width: 125px;
 	height: 25px;
@@ -136,7 +140,7 @@ header nav a{
 
 .header-double h1{
 	text-align: center;
-	transform:scale(1.15,1);
+	transform: scale(1.15,1);
 }
 
 hr{
@@ -145,8 +149,8 @@ hr{
 }
 
 .double{
-	display:inline-block;
-	width:340px;
+	display: inline-block;
+	width: 340px;
 	font-size: 14px;
 	margin: 30px 2px 30px 2px;
 }
@@ -158,11 +162,13 @@ h2{
 
 .middle-img{
 	width: 700px;
-	
+	height: 130px;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-size: 700px 130px;
 }
 
 .triple{
-	display:inline-block;
+	display: inline-block;
 	width: 220px;
 	margin: 30px 3px 30px 3px;
 	font-size: 14px;
@@ -170,13 +176,14 @@ h2{
 
 footer address{
 	margin-top: 15px;
-	width:140px;
+	width: 140px;
 	font-size: 14px;
 }
 
 footer p{
-	margin-top: 15px;
-	width:140px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 140px;
 	font-size: 14px;
 }
 
@@ -186,4 +193,5 @@ footer p{
 	font-size: 12px;
 	width: 400px;
 	margin: auto;
+	margin-top: 50px;
 }
