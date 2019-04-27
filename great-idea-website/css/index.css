@@ -60,7 +60,130 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+h1{
+	font-size: 50px;
 }
 
 /* Your code starts here! */
+*{
+	box-sizing: border-box; 
+	/* background-color: lightcoral; */
+}
+
+body{
+	display:  block;
+	width: 700px;
+	margin: auto;
+}
+
+header{
+	width: 700px;
+	height: 75px;
+	margin-top: 10px;
+}
+
+header nav{
+	vertical-align: middle;
+	display: inline-block;
+	width: 550px;
+}
+
+header nav a{
+	padding-right: 40px;
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+}
+
+.logo{
+	vertical-align: middle;
+	display: inline-block;
+	width: 145px;
+	height: 25px; 
+}
+
+.header-double{
+	vertical-align: top;
+	display:inline-block;
+	width: 330px;
+	height: 330px;
+	margin: 9px;
+	font-size: 14px;
+}
+
+.header-double img{
+	width: 300px;
+	height: 300px;	
+}
+
+.header-double button{
+	display: block;
+	margin:auto;
+	margin-top:15px;
+	width: 125px;
+	height: 25px;
+	background-color: white;
+	border-color: black;
+	border-width: 1px;
+}
+
+#header-text{
+	padding-top: 45px;
+}
+
+.header-double h1{
+	text-align: center;
+	transform:scale(1.15,1);
+}
+
+hr{
+	border-width: .5px;
+	border-color: black;
+}
+
+.double{
+	display:inline-block;
+	width:340px;
+	font-size: 14px;
+	margin: 30px 2px 30px 2px;
+}
+
+h2{
+	font-size: 18px;
+	font-weight: 200%;
+}
+
+.middle-img{
+	width: 700px;
+	
+}
+
+.triple{
+	display:inline-block;
+	width: 220px;
+	margin: 30px 3px 30px 3px;
+	font-size: 14px;
+}
+
+footer address{
+	margin-top: 15px;
+	width:140px;
+	font-size: 14px;
+}
+
+footer p{
+	margin-top: 15px;
+	width:140px;
+	font-size: 14px;
+}
+
+#copyright{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	width: 400px;
+	margin: auto;
+}
