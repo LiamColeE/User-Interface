@@ -79,10 +79,20 @@ body{
 	margin: auto;
 }
 
-header{
+#header-placeholder{
+	display: inline-block;
 	width: 700px;
-	height: 75px;
+	height: 25px;
 	margin-top: 10px;
+}
+
+header{
+	position: fixed;
+    top: 10px;
+	width: 700px;
+	height: 25px;
+	background-color: darkgray;
+	z-index: 1;
 }
 
 header nav{
@@ -94,7 +104,7 @@ header nav{
 header nav a{
 	padding-right: 40px;
 	text-decoration: none;
-	color: gray;
+	color: black;
 	font-size: 14px;
 }
 
