@@ -70,7 +70,6 @@ h1{
 /* Your code starts here! */
 *{
 	box-sizing: border-box; 
-	/* background-color: lightcoral; */
 }
 
 body{
@@ -84,6 +83,7 @@ body{
 	width: 700px;
 	height: 25px;
 	margin-top: 10px;
+	margin-bottom: 35px;
 }
 
 header{
@@ -202,6 +202,7 @@ footer p{
 	text-align: center;
 	font-size: 12px;
 	width: 400px;
+	height: 200px;
 	margin: auto;
 	margin-top: 50px;
 }
