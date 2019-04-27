@@ -68,6 +68,20 @@ h1{
 }
 
 /* Your code starts here! */
+@keyframes button-hover {
+	from {background-color: gray;
+		  color:white;}
+	to {background-color: white;
+		color: gray;}
+}
+
+@keyframes button-not-hover {
+	from {background-color: white;
+		color: gray;}
+	to {background-color: gray;
+		color:white;}
+}
+
 *{
 	box-sizing: border-box; 
 }
@@ -104,11 +118,26 @@ header nav{
 }
 
 header nav a{
-	padding-right: 30px;
-	padding-left: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
 	text-decoration: none;
 	color: black;
 	font-size: 14px;
+	background-color: gray;
+	border-radius: 5px;
+	margin: 0px 5px 0px 5px;
+}
+
+header nav a:hover{
+ 	animation-name: button-hover;
+  	animation-duration: .5s;
+  	animation-fill-mode: forwards;
+}
+
+header nav a:not(:hover){
+	animation-name: button-not-hover;
+	animation-duration: .5s;
+	animation-fill-mode: forwards;
 }
 
 .logo{
