@@ -1,4 +1,4 @@
-Liam Edlingergit 
+Liam Edlinger
 
 # User Interface Project: Great Idea Web Page
 
